@@ -1,0 +1,14 @@
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\HalliganTL.pdb
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\obj\Debug\HalliganTL.csprojResolveAssemblyReference.cache
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll
+c:\users\agustintomas\documents\visual studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\obj\Debug\HalliganTL.pdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb

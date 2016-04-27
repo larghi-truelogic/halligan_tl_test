@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalliganTL.View.LoginPage">
+  <StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+    <Entry x:Name="entryEmail" Placeholder="Email" Text="{Binding Username}"/>
+    <Entry x:Name="entryPassword" Placeholder="Password" Text="{Binding Password}" IsPassword="true"/>
+    <Button Text="Login" TextColor="White" BackgroundColor="#77D065" Clicked="OnLoginButtonClicked"/>
+    <Button Text="Forgot password?" TextColor="White" BackgroundColor="#77D065" Clicked="OnForgotPasswordClicked"/>
+    <Label x:Name="messageLabel" />
+  </StackLayout>
+</ContentPage>

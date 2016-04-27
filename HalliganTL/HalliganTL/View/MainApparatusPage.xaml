@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalliganTL.View.MainApparatusPage">
+  <ListView x:Name="listView" ItemSelected="OnItemSelected">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+            <Image Source="{Binding ImageSource}" WidthRequest="50" HeightRequest="50" />
+            <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
+              <Label Text="{Binding Name}" VerticalTextAlignment="Center" FontSize="10" />
+            </StackLayout>
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>

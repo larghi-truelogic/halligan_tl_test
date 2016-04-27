@@ -75,5 +75,9 @@ C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\R.cs.flag
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\uploadflags.txt
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\res\drawable\truck.png
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\res\drawable\list.png
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\res\drawable\defaultimage.png
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\bin\Debug\HalliganTL.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\HalliganTL.Droid.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\bin\Debug\HalliganTL.Droid.dll.mdb

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HalliganTL.View.ApparatusDetailPage">
+  <StackLayout Orientation="Vertical">
+    <!-- Current apparatus detail -->
+    <StackLayout Orientation="Horizontal">
+      <Image Source="http://austintoystores.com/wp-content/uploads/2013/04/Fire-Truck.jpg" HeightRequest="100" WidthRequest="100"/>
+      <StackLayout Orientation="Vertical">
+        <Label Text="Ladder 551" VerticalTextAlignment="Center" FontSize="10" />
+        <Label Text="Last check:" VerticalTextAlignment="Center" FontSize="10" />
+        <Label Text="Wednesday, June 22" VerticalTextAlignment="Center" FontSize="10" />
+        <Label Text="Next check:" VerticalTextAlignment="Center" FontSize="10" />
+        <Label Text="Wednesday, June 22" VerticalTextAlignment="Center" FontSize="10" />
+      </StackLayout>
+    </StackLayout>
+
+    <Label Text="Check history" VerticalTextAlignment="Center" FontSize="15" />
+    
+    <!-- Apparatus check history -->
+    <ListView x:Name="listView" ItemSelected="OnItemSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Vertical">
+              <!-- First row i.e. 6/22/2015 Check Cody Payne -->
+              <StackLayout Orientation="Horizontal">
+                <Label Text="[DATE]" VerticalTextAlignment="Center" FontSize="10" />
+                <Label Text=" Check " VerticalTextAlignment="Center" FontSize="10" />
+                <Label Text="[ACTOR]" VerticalTextAlignment="Center" FontSize="10" />
+              </StackLayout>
+              <!-- Second row i.e. 23/54 Percentage widget -->
+              <StackLayout Orientation="Horizontal">
+                <Label Text="25/28" VerticalTextAlignment="Center" FontSize="10" />
+                <ProgressBar Progress="30" />
+              </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+  
+</ContentPage>

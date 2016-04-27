@@ -41,12 +41,32 @@
     <Compile Include="Data\IRestService.cs" />
     <Compile Include="Data\RestService.cs" />
     <Compile Include="Data\RolesManager.cs" />
+    <Compile Include="Model\Apparatus.cs" />
     <Compile Include="Model\Feed.cs" />
     <Compile Include="Model\Permission.cs" />
     <Compile Include="Model\Role.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ApparatusDetailPage.xaml.cs">
+      <DependentUpon>ApparatusDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\FeedMainList.xaml.cs">
       <DependentUpon>FeedMainList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ForgotPasswordPage.xaml.cs">
+      <DependentUpon>ForgotPasswordPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainApparatusPage.xaml.cs">
+      <DependentUpon>MainApparatusPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainFeedPage.xaml.cs">
+      <DependentUpon>MainFeedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +130,42 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\FeedMainList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\ForgotPasswordPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MainApparatusPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MainFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\ApparatusDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

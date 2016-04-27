@@ -1,0 +1,9 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:me="clr-namespace:HalliganTL.View;assembly=HalliganTL"
+            x:Class="HalliganTL.View.MainPage">
+  <TabbedPage.Children>
+    <me:MainApparatusPage Title="Apparatus" Icon="List.png" />
+    <me:MainFeedPage Title="Feed" Icon="Truck.png" />
+  </TabbedPage.Children>
+</TabbedPage>

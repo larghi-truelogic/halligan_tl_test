@@ -13,11 +13,12 @@ namespace HalliganTL
     public class App : Application
     {
         public static RolesManager RolesItemManager { get; private set; }
+        public static bool IsUserLoggedIn { get; internal set; }
 
         public App()
         {
             RolesItemManager = new RolesManager(new RestService());
-            MainPage = new FeedMainList { Title = "Feeds", Icon = "xaml.png" };
+            MainPage = new NavigationPage(new LoginPage { Title = "Login", Icon = "xaml.png" });
         }
     }
 }

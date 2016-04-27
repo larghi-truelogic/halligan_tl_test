@@ -71,16 +71,9 @@ namespace HalliganTL
             var uri = new Uri(string.Format(Constants.FeedEnpoint, string.Empty));
             try
             {
-                cookies.Add(uri, new Cookie("set-cookie", string.Format("AUTH_TOKEN={0}", authToken)));
-                cookies.Add(uri, new Cookie("Set-cookie", string.Format("AUTH_TOKEN={0}", authToken)));
-                cookies.Add(uri, new Cookie("Set-Cookie", string.Format("AUTH_TOKEN={0}", authToken)));
-                cookies.Add(uri, new Cookie("AUTH_TOKEN", authToken));
-                client.DefaultRequestHeaders.Add("Set-cookie", string.Format("AUTH_TOKEN={0}", authToken));
-                client.DefaultRequestHeaders.Add("set-cookie", string.Format("AUTH_TOKEN={0}", authToken));
-                client.DefaultRequestHeaders.Add("Set-Cookie", string.Format("AUTH_TOKEN={0}", authToken));
-                handler.CookieContainer.Add(uri, new Cookie("set-cookie", string.Format("AUTH_TOKEN={0}", authToken)));
-                handler.CookieContainer.Add(uri, new Cookie("Set-cookie", string.Format("AUTH_TOKEN={0}", authToken)));
-                handler.CookieContainer.Add(uri, new Cookie("Set-Cookie", string.Format("AUTH_TOKEN={0}", authToken)));
+                cookies.Add(uri, new Cookie("Cookie", string.Format("AUTH_TOKEN={0}", authToken)));
+                client.DefaultRequestHeaders.Add("Cookie", string.Format("AUTH_TOKEN={0}", authToken));
+                handler.CookieContainer.Add(uri, new Cookie("Cookie", string.Format("AUTH_TOKEN={0}", authToken)));
                 
                 var response = await client.GetAsync(uri);
                 response.EnsureSuccessStatusCode();

@@ -13,12 +13,13 @@
         <Label Text="Next check:" VerticalTextAlignment="Center" FontSize="10" />
         <Label Text="Wednesday, June 22" VerticalTextAlignment="Center" FontSize="10" />
       </StackLayout>
+      <Button Text="Forgot password?" TextColor="White" BackgroundColor="#77D065" Clicked="OnCheckButtonClicked" />
     </StackLayout>
 
     <Label Text="Check history" VerticalTextAlignment="Center" FontSize="15" />
     
     <!-- Apparatus check history -->
-    <ListView x:Name="listView" ItemSelected="OnItemSelected">
+    <ListView x:Name="listView">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>

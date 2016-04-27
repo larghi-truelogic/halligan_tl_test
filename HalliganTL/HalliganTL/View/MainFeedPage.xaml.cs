@@ -15,15 +15,17 @@ namespace HalliganTL.View
         {
             InitializeComponent();
             //TODO Change this by a Feed object whose fields matches with the ones in MainFeedPage xaml
-            listView.ItemsSource = new[] { "Alex", "Steve", "Jack", "David", "Martin", "Henry", "William", "Dave", "Tim" };
+            FeedListView.ItemsSource = new[] { "Alex", "Steve", "Jack", "David", "Martin", "Henry", "William", "Dave", "Tim" };
         }
 
-        public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        public void OnItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if (e.SelectedItem == null) return; // has been set to null, do not 'process' tapped event
-            DisplayAlert("Tapped", e.SelectedItem + " row was tapped", "OK");
-            ((ListView)sender).SelectedItem = null; // de-select the row
+            var feed = e.Item;
+            if (feed == null)
+               return;
+            //Push to the feed detail
+            //this.Navigation.PushAsync(new PhotoPage(photo));
+            this.FeedListView.SelectedItem = null;
         }
-
     }
 }

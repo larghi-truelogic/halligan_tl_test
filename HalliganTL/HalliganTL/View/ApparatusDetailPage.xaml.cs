@@ -11,10 +11,17 @@ namespace HalliganTL.View
 {
     public partial class ApparatusDetailPage : ContentPage
     {
+
         public ApparatusDetailPage()
         {
             InitializeComponent();
         }
+
+        async void OnCheckButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CheckApparatusProgressPage());
+        }
+
     }
 
     

@@ -2,13 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HalliganTL.View.MainFeedPage">
-  <ListView x:Name="listView" ItemSelected="OnItemSelected">
+  <ListView x:Name="FeedListView" ItemTapped="OnItemTapped" IsPullToRefreshEnabled="True">
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
           <!-- TODO: We have to render each ViewCell in Its own class, so we can have several types of feed items -->
           <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
-            <Image x:Name="feedImage" Source="DefaultImage.png"/>
+            <Image x:Name="FeedImage" Source="DefaultImage.png"/>
             <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
               <Label Text="{Binding .}" VerticalTextAlignment="Center" FontSize="Medium" />
             </StackLayout>

@@ -12,7 +12,6 @@ C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganT
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\HalliganTL\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.csproj.App.config
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.csprojResolveAssemblyReference.cache
-C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.View.FeedMainList.xaml.g.cs
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.pdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.config
@@ -51,5 +50,8 @@ C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.View.CheckApparatusProgressPage.xaml.g.cs
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb

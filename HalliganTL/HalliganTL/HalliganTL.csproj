@@ -41,9 +41,14 @@
     <Compile Include="Data\IRestService.cs" />
     <Compile Include="Data\RestService.cs" />
     <Compile Include="Data\RolesManager.cs" />
+    <Compile Include="Model\Actor.cs" />
     <Compile Include="Model\Apparatus.cs" />
+    <Compile Include="Model\ApparatusCheckStep.cs" />
+    <Compile Include="Model\ApparatusCheckStepOutcome.cs" />
+    <Compile Include="Model\CheckReport.cs" />
     <Compile Include="Model\Feed.cs" />
     <Compile Include="Model\Permission.cs" />
+    <Compile Include="Model\PictureFile.cs" />
     <Compile Include="Model\Role.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

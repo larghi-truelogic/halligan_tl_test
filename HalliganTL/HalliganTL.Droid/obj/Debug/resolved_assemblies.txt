@@ -74,10 +74,10 @@ C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
-C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Net.Http.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\Newtonsoft.Json.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Net.Http.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL.Droid\obj\Debug\assemblies\System.Numerics.dll

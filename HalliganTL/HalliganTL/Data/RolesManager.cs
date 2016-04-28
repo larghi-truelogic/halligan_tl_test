@@ -15,9 +15,9 @@ namespace HalliganTL
             restService = service;
         }
 
-        public Task<List<Role>> GetRolesAsync()
+        public async Task<List<Role>> GetRolesAsync()
         {
-            return restService.RefreshRolesDataAsync();
+            return await restService.GetRolesDataAsync();
         }
     }
 }

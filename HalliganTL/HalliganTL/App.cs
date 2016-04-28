@@ -18,7 +18,8 @@ namespace HalliganTL
         public App()
         {
             RolesItemManager = new RolesManager(new RestService());
-            MainPage = new NavigationPage(new LoginPage { Title = "Login", Icon = "xaml.png" });
+            var roles = RolesItemManager.GetRolesAsync().Result;
+            //MainPage = new NavigationPage(new LoginPage { Title = "Login", Icon = "xaml.png" });
         }
     }
 }

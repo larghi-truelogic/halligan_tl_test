@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace HalliganTL
 {
-    internal class HalliganCredential
+    public class HalliganCredential
     {
         [JsonProperty("password")]
         public string Password { get; set; }

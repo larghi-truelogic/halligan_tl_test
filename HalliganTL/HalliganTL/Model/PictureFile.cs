@@ -4,6 +4,7 @@
 // Author:
 //   Agustin Larghi (agustin.larghi@truelogic.software.com)
 //
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,13 +27,21 @@ namespace HalliganTL
     //</summary>
     class PictureFile
     {
-        public string contentType { get; set; }
-        public string createdAt { get; set; }
-        public int filesize { get; set; }
-        public int height { get; set; }
-        public int id { get; set; }
-        public string md5Checksum { get; set; }
-        public string name { get; set; }
-        public int width { get; set; }
+        [JsonProperty("contentType")]
+        public string ContentType { get; set; }
+        [JsonProperty("createdAt")]
+        public string CreatedAt { get; set; }
+        [JsonProperty("filesize")]
+        public int Filesize { get; set; }
+        [JsonProperty("height")]
+        public int Height { get; set; }
+        [JsonProperty("id")]
+        public int Id { get; set; }
+        [JsonProperty("md5Checksum")]
+        public string Md5Checksum { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
+        [JsonProperty("width")]
+        public int Width { get; set; }
     }
 }

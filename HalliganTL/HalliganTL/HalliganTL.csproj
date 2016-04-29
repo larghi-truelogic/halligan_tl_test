@@ -40,7 +40,7 @@
     <Compile Include="Data\HalliganCredential.cs" />
     <Compile Include="Data\IRestService.cs" />
     <Compile Include="Data\RestService.cs" />
-    <Compile Include="Data\RolesManager.cs" />
+    <Compile Include="Data\RequestManager.cs" />
     <Compile Include="Model\Actor.cs" />
     <Compile Include="Model\Apparatus.cs" />
     <Compile Include="Model\ApparatusCheckStep.cs" />

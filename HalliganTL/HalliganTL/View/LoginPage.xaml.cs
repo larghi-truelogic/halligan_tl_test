@@ -22,13 +22,13 @@ namespace HalliganTL.View
 
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var user = new User
+            HalliganCredential credentials = new HalliganCredential
             {
                 Email = entryEmail.Text,
                 Password = entryPassword.Text
             };
-
-            var isValid = AreCredentialsCorrect(user);
+            messageLabel.Text = "Login...";
+            bool isValid = true;//await App.RestClient.GetUserAuthAsync(credentials);
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
@@ -40,7 +40,6 @@ namespace HalliganTL.View
                 messageLabel.Text = "Login failed";
                 entryPassword.Text = string.Empty;
             }
-
         }
 
         private bool AreCredentialsCorrect(User user)

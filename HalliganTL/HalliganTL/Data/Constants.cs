@@ -10,6 +10,9 @@ namespace HalliganTL
 {
     internal class Constants
     {
+        //Credentials constants
+        internal static readonly double CredentialsExpireTime = 5d; //Time in hours that's gonna last the credentials.
+
         //Endpoints constansts declarations
         internal static readonly string BaseAddress = "http://app.halligan.io";
         internal static readonly string AuthorizeEndpoint = "/authorize";

@@ -7,7 +7,7 @@
       <DataTemplate>
         <ViewCell>
           <StackLayout Orientation="Horizontal">
-            <Image Source="{Binding ImageSource}" WidthRequest="50" HeightRequest="50" />
+            <Image Source="{Binding PictureFile.ContentType}" WidthRequest="50" HeightRequest="50" />
             <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
               <Label Text="{Binding Name}" VerticalTextAlignment="Center" FontSize="10" />
             </StackLayout>

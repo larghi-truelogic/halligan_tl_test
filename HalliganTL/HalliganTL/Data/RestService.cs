@@ -24,12 +24,22 @@ namespace HalliganTL
         string authToken;
         DateTime tokenExpireDate;
         Uri baseAddress;
+        HalliganCredential credentials;
 
         public List<Role> RolesItems { get; private set; }
 
         public RestService()
         {
             baseAddress = new Uri(Constants.BaseAddress);
+        }
+
+        //<summary>
+        //Checks the credentials agains the /authorize endpoint
+        //</summary>
+        public async Task GetUserAuthDataAsync(HalliganCredential c)
+        {
+            credentials = c;
+            RefreshAuthToken();
         }
 
         //<summary>
@@ -54,7 +64,6 @@ namespace HalliganTL
             {
                 throw new AuthTokenNullException();
             }
-            //IDK Why the AUTH_TOKEN needs to be twice but if I put It only once the request doesn't work...
             request.Headers["Cookie"] = authToken;
             request.Method = "GET";
             HttpWebResponse response = request.GetResponseAsync().Result as HttpWebResponse;
@@ -70,11 +79,10 @@ namespace HalliganTL
         private void RefreshAuthToken()
         {
             //Credentials validation
-            var credentials = new HalliganCredential()
+            if (credentials == null)
             {
-                Email = Constants.Username,
-                Password = Constants.Password
-            };
+                throw new NullReferenceException("Credentials cannot be null once you call this method!");
+            }
             var jsonCredentials = JsonConvert.SerializeObject(credentials);
             var request = (HttpWebRequest) WebRequest.Create(new Uri(baseAddress, Constants.AuthorizeEndpoint));
             request.ContentType = "application/json";
@@ -88,8 +96,8 @@ namespace HalliganTL
                 HttpWebResponse response = (HttpWebResponse) request.GetResponseAsync().Result;
                 if (response.StatusCode.Equals(HttpStatusCode.OK))
                 {
-                    //"Set-Cookies" is always in the fifth position
-                    authToken = response.Headers["Set-Cookies"];
+                    authToken = response.Headers["Set-Cookie"];
+                    tokenExpireDate = DateTime.Now.AddHours(Constants.CredentialsExpireTime);
                 }
                 else
                 {

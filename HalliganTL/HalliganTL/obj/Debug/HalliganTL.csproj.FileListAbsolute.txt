@@ -53,5 +53,3 @@ C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.View.CheckApparatusProgressPage.xaml.g.cs
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
 C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb
-C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\obj\Debug\HalliganTL.dll.mdb
-C:\Users\AgustinTomas\Documents\Visual Studio 2015\Projects\TL\halligan_tl_test\HalliganTL\HalliganTL\bin\Debug\HalliganTL.dll.mdb

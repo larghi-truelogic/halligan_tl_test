@@ -14,5 +14,6 @@ namespace HalliganTL
     public interface IRestService
     {
         Task<List<Role>> GetRolesDataAsync();
+        Task GetUserAuthDataAsync(HalliganCredential credentials);
     }
 }

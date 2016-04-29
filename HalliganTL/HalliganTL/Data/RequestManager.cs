@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HalliganTL
 {
-    public class RolesManager
+    public class RequestManager
     {
         IRestService restService;
 
-        public RolesManager(IRestService service)
+        public RequestManager(IRestService service)
         {
             restService = service;
         }
@@ -18,6 +18,11 @@ namespace HalliganTL
         public async Task<List<Role>> GetRolesAsync()
         {
             return await restService.GetRolesDataAsync();
+        }
+
+        public async Task GetUserAuthAsync(HalliganCredential credentials)
+        {
+            await restService.GetUserAuthDataAsync(credentials);
         }
     }
 }
